@@ -1,0 +1,25 @@
+ <head>
+  <title>AccountUser</title>
+ </head>
+ <body>
+ <form>
+ <label>UPInumber</label>
+ <input required pattern="[0-9]{6}"  type="number" title="upi pin contain 6 digit"></input>
+ <br></br>
+ <label>IFSCcode</label>
+ <input required pattern="[A-Z]{4}[0]{3}[1-9]{4}" title="contain 4 alphabets 7 digits"></input>
+ <br></br>
+ <label>mobile number</label>
+ <input type="submit"  value="+91" ></input>
+ <input required pattern="[6-9]{1}[0-9]{9}"  type="number" title="contains the 10 digits"></input>
+ 
+ <br></br>
+ <label>name</label>
+ <input required type="text" pattern="[A-z]{1}[a-z]{5-15} []{1}"/>
+ <input required pattern="[A-Z]{1}[a-z]{5-10} []{1}"/>
+ <input required pattern="[a-Z]{1}[a-z]{5-15} []{1}"/>
+ <input type="submit"value="check"></input>
+ </form>
+ 
+ </body>
+</html>

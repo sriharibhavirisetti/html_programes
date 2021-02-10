@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSPIDER APPLICATION</title>
+	<link rel="stylesheet" type="text/css" href="jspider.css">
+</head>
+<body>
+	<h1 align="center">JSPIDER APPLICATION</h1>
+	<div>
+		<form>
+			<fieldset>
+				<legend>General Details</legend>
+					<table>
+						<tr>
+							<td><label>Full Name</label> </td>
+							<td><input type="text" name=""> </td>
+						</tr>
+						
+						<tr>
+							<td><label>Gender</label></td>
+							<td><input type="radio" name="n1">Male</td>
+							<td><input type="radio" name="n1">Female</td>
+						</tr>
+						<tr>
+							<td><label>Date Of Birth</label></td>
+							<td><input type="date" name=""></td>
+						</tr>
+						<tr>
+							<td><label>Mobile Number</label></td>
+							<td><input type="number" name=""></td>
+						…
+[10:28 AM, 2/7/2021] Shiva Cse B: body{
+	background:linear-gradient(0deg, blue,red,yellow); 
+	background-attachment: fixed;
+}
+table{
+	width:100%;
+}
+input{
+	border-radius:20px;
+	border:none;
+
+}
+h1{
+	font-family: 'comic sans ms';
+}
+fieldset{
+	border-radius:20px;
+	font-family: 'comic sans ms';
+	margin-top: 20px;
+}
+legend{
+	padding: 15px;
+	background: linear-gradient(45deg,blue,red,yellow);
+	border-radius: 30px;
+	font-weight: bold;
+}

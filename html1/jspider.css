@@ -1,0 +1,26 @@
+body{
+	background:linear-gradient(0deg, blue,red,yellow); 
+	background-attachment: fixed;
+}
+table{
+	width:100%;
+}
+input{
+	border-radius:20px;
+	border:none;
+
+}
+h1{
+	font-family: 'comic sans ms';
+}
+fieldset{
+	border-radius:20px;
+	font-family: 'comic sans ms';
+	margin-top: 20px;
+}
+legend{
+	padding: 15px;
+	background: linear-gradient(45deg,blue,red,yellow);
+	border-radius: 30px;
+	font-weight: bold;
+}
